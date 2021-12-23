@@ -1,0 +1,32 @@
+body { margin:0px; }
+
+.wrapper > * {
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: nowrap;
+    min-height: 100vh;
+}
+
+.inside_wrapper > * {
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.inside_wrapper {
+    margin: 0px;
+    padding: 0px;
+    border: ;
+    display: flex;
+    flex-flow: nowrap;
+    min-height: 100vh;
+}
